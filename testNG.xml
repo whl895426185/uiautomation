@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="testproj" parallel="false">
+    <test name="testcase">
+        <classes>
+            <class name="com.wljs.testcase.RegressionTesting"></class>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="com.wljs.testcase.testng.TestngListener"/>
+        <listener class-name="com.wljs.testcase.testng.TestngListenerAdapter"/>
+    </listeners>
+</suite>

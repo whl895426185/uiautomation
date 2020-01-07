@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [executeTestCase]">
+  <listeners>
+    <listener class-name="com.wljs.testcase.testng.TestngListener"/>
+    <listener class-name="com.wljs.testcase.testng.TestngListenerAdapter"/>
+  </listeners>
+  <test thread-count="5" name="test(failed)">
+    <parameter name="appiumServerPort" value="4724"/>
+    <parameter name="serial" value="81737a3af5cf49e044ad3d5dd8131917204fd433"/>
+    <parameter name="index" value="0"/>
+    <parameter name="model" value="iPhone 7 Plus"/>
+    <parameter name="version" value="13.3"/>
+    <parameter name="deviceName" value="Apple iPhone 7 Plus"/>
+    <parameter name="platform" value="iOS"/>
+    <parameter name="manufacturer" value="Apple"/>
+    <parameter name="systemPort" value="0"/>
+    <parameter name="wdaLocalPort" value="8102"/>
+    <classes>
+      <class name="com.wljs.testcase.RegressionTesting">
+        <methods>
+          <include name="initialization"/>
+          <include name="loginApp"/>
+          <include name="endExecutionCase"/>
+        </methods>
+      </class> <!-- com.wljs.testcase.RegressionTesting -->
+    </classes>
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [executeTestCase] -->

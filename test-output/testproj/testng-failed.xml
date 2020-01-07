@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [testproj]">
+  <listeners>
+    <listener class-name="com.wljs.testcase.testng.TestngListener"/>
+  </listeners>
+  <test thread-count="5" name="testcase(failed)">
+    <classes>
+      <class name="com.wljs.testcase.IosRegressionTesting">
+        <methods>
+          <include name="executionCase"/>
+          <include name="initialization"/>
+          <include name="endExecutionCase"/>
+        </methods>
+      </class> <!-- com.wljs.testcase.RegressionIosTestinging -->
+    </classes>
+  </test> <!-- testcase(failed) -->
+</suite> <!-- Failed suite [testproj] -->
